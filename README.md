@@ -1,5 +1,7 @@
 # Maac4ML
 
+The code of Maac4ML.
+
 A research project investigating the impact of precision loss and activation function changes on deep learning model performance.
 
 ## Overview
