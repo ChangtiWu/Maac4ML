@@ -88,28 +88,30 @@ Output files:
 - `*_train_acc.pdf` - Training accuracy comparison
 - `*_test_acc.pdf` - Test accuracy comparison
 
-## Configuration
+## Hyper-parameters
 
-### ResNet Experiment Configuration
+### ResNet-18 Experiment Configuration
+
+We use ResNet-18.
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `num_epochs` | 20 | Number of training epochs |
 | `batch_size` | 256 | Batch size |
 | `learning_rate` | 0.01 | Initial learning rate |
-| `device` | 'cuda:7' | GPU device |
 
-### ViT Experiment Configuration
+### ViT-Small Experiment Configuration
+
+We use Vit-Small, which uses CNN to do **Patch Embedding**, with 6 transformer blocks.
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `num_epochs` | 50 | Number of training epochs |
 | `batch_size` | 256 | Batch size |
-| `learning_rate` | 0.001 | Initial learning rate |
+| `learning_rate` | 0.001 with decay=0.05 | Initial learning rate with decay |
 | `embed_dim` | 256 | Embedding dimension |
 | `depth` | 6 | Number of transformer blocks |
 | `num_heads` | 8 | Number of attention heads |
-| `device` | 'cuda:6' | GPU device |
 
 ## Output Format
 
