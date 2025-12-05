@@ -139,13 +139,6 @@ We use Vit-Small, which uses CNN to do **Patch Embedding**, with 6 transformer b
 }
 ```
 
-## Sample Results
-
-**ResNet18 (20 epochs):**
-- Experiment 1 (baseline): ~67.56% test accuracy
-- Experiment 2 (3 decimals + square): ~63.97% test accuracy
-- Experiment 3 (6 decimals + ReLU): ~66.90% test accuracy
-
 ## Notes
 
 1. Ensure the dataset path is correctly configured
