@@ -2,8 +2,6 @@
 
 The code of Maac4ML.
 
-A research project investigating the impact of precision loss and activation function changes on deep learning model performance.
-
 ## Overview
 
 This project studies how numerical precision control (decimal place rounding) and alternative activation functions affect model training and inference. Comparative experiments are conducted using ResNet18 and Vision Transformer architectures on the CIFAR-100 dataset.
